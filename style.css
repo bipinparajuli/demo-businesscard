@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  --dark: #393939;
+  --red: #d12229;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+
+.business2 {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+  background-color: #131417;
+}
+
+.business2 .front {
+  background-color: var(--dark);
+  width: 280px;
+  height: 480px;
+  margin: 20px;
+  border-radius: 25px;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.business2 h1,
+.business2 h2,
+.business2 p {
+  margin: 0;
+  color: #eee;
+}
+
+.business2 .red {
+  height: 35%;
+  background-color: var(--red);
+}
+
+.business2 .head {
+  display: flex;
+  justify-content: center;
+  padding: 25px 0;
+}
+
+.business2 .head img {
+  width: 40px;
+}
+
+.business2 .head > div {
+  text-align: center;
+  margin: 0 10px;
+  text-transform: uppercase;
+}
+
+.business2 .head > div p {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.business2 .avatar {
+  position: absolute;
+  width: 50%;
+  left: 50%;
+  top: 100px;
+  transform: translate(-50%);
+  text-align: center;
+}
+
+.business2 .img {
+  background-color: #bfc2c7;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 6px solid var(--dark);
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.business2 .img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.business2 .avatar p:nth-of-type(1) {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.business2 .infos {
+  position: absolute;
+  bottom: 30%;
+  left: 25%;
+}
+
+
+
+.business2 .infos > div p {
+  font-size: 0.8rem;
+  margin: 5px 0;
+  font-weight: 500;
+}
+

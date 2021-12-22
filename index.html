@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <script>
+        function changeimg()
+        {
+        let imgurl=document.getElementById("img").value
+            document.getElementById("a").src=imgurl
+
+
+        }
+        </script>
+    <body>
+        
+        <div class="business2">
+        
+            <div class="front">
+                <div class="red">
+        
+                    <div class="head">
+                        <div>
+                            <h2>Business Card</h2>
+                            <p>Demo group of company</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="avatar">
+                    <div class="img">
+        
+                        <img id="a" height="100" width="100" src="https://raw.githubusercontent.com/MohcineDev/Business-Card/main/imgs/man.png" alt="">
+                    </div>
+                    <p contenteditable="true">Bipin Parajuli</p>
+                </div>
+                <div class="infos">      
+                    <div>
+
+                    <p contenteditable="true">+977-9826941835</p>
+                    </div>             
+                    <div>
+                        <p contenteditable="true">bipinprjl@gmail.com</p>
+                    </div>
+                    <input type="text" id="img" onchange="changeimg()">
+                   
+                        </div>
+                    </div>                        
+        </div>
+        
+    </body>
+</html>
